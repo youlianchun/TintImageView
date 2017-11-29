@@ -8,9 +8,11 @@
 
 #import "ViewController.h"
 #import "TintImageView.h"
+#import "UITintImageView.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet TintImageView *tintImageView;
+@property (weak, nonatomic) IBOutlet UITintImageView *imgView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
 
@@ -18,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.imgView.contentMode = UIViewContentModeTop;
     // Do any additional setup after loading the view, typically from a nib.
 }
 

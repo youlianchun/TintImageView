@@ -14,6 +14,7 @@
 		A9D495EE1FB54E3700D0829D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D495EC1FB54E3700D0829D /* LaunchScreen.storyboard */; };
 		A9D495F11FB54E3700D0829D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D495F01FB54E3700D0829D /* main.m */; };
 		A9D495F91FB54E4E00D0829D /* TintImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D495F81FB54E4E00D0829D /* TintImageView.m */; };
+		A9ECB7DF1FC2D0D700F85535 /* UITintImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ECB7DE1FC2D0D700F85535 /* UITintImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A9D495F01FB54E3700D0829D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9D495F71FB54E4E00D0829D /* TintImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TintImageView.h; sourceTree = "<group>"; };
 		A9D495F81FB54E4E00D0829D /* TintImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TintImageView.m; sourceTree = "<group>"; };
+		A9ECB7DD1FC2D0D700F85535 /* UITintImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITintImageView.h; sourceTree = "<group>"; };
+		A9ECB7DE1FC2D0D700F85535 /* UITintImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITintImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		A9D495E01FB54E3600D0829D /* TintImageView */ = {
 			isa = PBXGroup;
 			children = (
+				A9ECB7DD1FC2D0D700F85535 /* UITintImageView.h */,
+				A9ECB7DE1FC2D0D700F85535 /* UITintImageView.m */,
 				A9D495E11FB54E3600D0829D /* AppDelegate.h */,
 				A9D495E21FB54E3700D0829D /* AppDelegate.m */,
 				A9D495E41FB54E3700D0829D /* ViewController.h */,
@@ -151,6 +156,7 @@
 				A9D495F11FB54E3700D0829D /* main.m in Sources */,
 				A9D495E31FB54E3700D0829D /* AppDelegate.m in Sources */,
 				A9D495F91FB54E4E00D0829D /* TintImageView.m in Sources */,
+				A9ECB7DF1FC2D0D700F85535 /* UITintImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

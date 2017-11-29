@@ -107,4 +107,9 @@ UIImage *originalImage(UIImage *image) {
     }
 }
 
+-(BOOL)isHighlighted
+{
+    return [super isHighlighted];
+}
+
 @end

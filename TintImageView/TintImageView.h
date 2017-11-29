@@ -20,4 +20,6 @@ IB_DESIGNABLE
 
 -(void)setTintColor:(UIColor *)tintColor NS_UNAVAILABLE;
 
+//@property (nonatomic, getter=isHighlighted) IBInspectable BOOL highlighted;
+
 @end
